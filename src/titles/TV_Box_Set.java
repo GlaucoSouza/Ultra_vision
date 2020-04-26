@@ -19,5 +19,7 @@ public class TV_Box_Set extends Ultravision_attributes {
 	public void setSeason(int season) {
 		this.season = season;
 	}
+	
+	
 
 }

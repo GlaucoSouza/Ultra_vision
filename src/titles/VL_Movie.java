@@ -1,15 +1,12 @@
 package titles;
 
-
-
-
 public class VL_Movie extends Ultravision_attributes{
 	
 	
 	private String genre;
 	
 
-	public VL_Movie(String YearOfRelease, String Type, String Title, boolean Rent) {
+	public VL_Movie(String YearOfRelease, String Type, String Title, boolean Rent, String genre) {
 		super(YearOfRelease, Type, Title, Rent);
 		// TODO Auto-generated constructor stub
 		

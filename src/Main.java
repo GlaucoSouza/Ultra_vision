@@ -9,23 +9,18 @@ public class Main extends JFrame{
 		// TODO Auto-generated method stub
 
 		
+//		TV_Box_Set tvbox = new TV_Box_Set("2020", "DVD", "Lost", false, 2);
+//		tvbox.getYearOfRelease();
+//		System.out.println(tvbox);
 		
+		new Main();
 		
-		
-		TV_Box_Set tvbox = new TV_Box_Set("2020", "DVD", "Lost", false, 2);
-		
-		tvbox.getYearOfRelease().toString();
-		
-		
-		System.out.println(tvbox);
-		
+		options op = new options();
 		
 	}
-	
-	
-	
-//
+
 //	public Main() {
+//		
 //		this.setVisible(false);
 //		this.setSize(300, 300);
 //		
@@ -34,4 +29,6 @@ public class Main extends JFrame{
 //		this.validate();
 //		this.repaint();
 //	}
+	
+	
 }

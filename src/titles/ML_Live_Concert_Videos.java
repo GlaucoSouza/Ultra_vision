@@ -11,7 +11,6 @@ public class ML_Live_Concert_Videos extends Ultravision_attributes{
 		
 		
 		this.Band = Band;		
-		
 
 	}
 
