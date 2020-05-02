@@ -1,6 +1,6 @@
 package titles;
 
-public abstract class Ultravision_attributes {
+public abstract class Media {
 	
 	private String YearOfRelease;
 	private String Type;
@@ -8,7 +8,7 @@ public abstract class Ultravision_attributes {
 	private boolean Rent;
 	
 	
-	public Ultravision_attributes(String YearOfRelease, String Type, String Title, boolean Rent) {
+	public Media(String YearOfRelease, String Type, String Title, boolean Rent) {
 		super();
 		this.YearOfRelease = YearOfRelease;
 		this.Type = Type;

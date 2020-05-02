@@ -1,6 +1,6 @@
 package titles;
 
-public class ML_Live_Concert_Videos extends Ultravision_attributes{
+public class ML_Live_Concert_Videos extends Media{
 	
 	 private String Band;
 	
@@ -22,6 +22,11 @@ public class ML_Live_Concert_Videos extends Ultravision_attributes{
 		Band = band;
 	}
 	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+
 	
 
 }

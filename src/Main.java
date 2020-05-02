@@ -1,9 +1,9 @@
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
+import options.firstPrompt;
 import titles.TV_Box_Set;
 
-public class Main extends JFrame{
+public class Main{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,19 +15,15 @@ public class Main extends JFrame{
 		
 		new Main();
 		
-		options op = new options();
+		firstPrompt op = new firstPrompt();
 		
 	}
 
 //	public Main() {
 //		
-//		this.setVisible(false);
-//		this.setSize(300, 300);
 //		
-//		JOptionPane.showMessageDialog(this, "Welcome to Ultra-Vision");
+//		JOptionPane.showMessageDialog(null, "Welcome to Ultra-Vision");
 //		
-//		this.validate();
-//		this.repaint();
 //	}
 	
 	

@@ -1,6 +1,6 @@
 package titles;
 
-public class VL_Movie extends Ultravision_attributes{
+public class VL_Movie extends Media{
 	
 	
 	private String genre;
@@ -21,6 +21,11 @@ public class VL_Movie extends Ultravision_attributes{
 
 	public void setGenre(String genre) {
 		this.genre = genre;
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
 	}
 
 }

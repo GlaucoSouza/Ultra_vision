@@ -1,6 +1,6 @@
 package titles;
 
-public class TV_Box_Set extends Ultravision_attributes {
+public class TV_Box_Set extends Media {
 	
 	private int season;
 
@@ -20,6 +20,10 @@ public class TV_Box_Set extends Ultravision_attributes {
 		this.season = season;
 	}
 	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 	
 
 }
