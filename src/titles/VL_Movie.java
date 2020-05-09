@@ -6,7 +6,7 @@ public class VL_Movie extends Media{
 	private String genre;
 	
 
-	public VL_Movie(String YearOfRelease, String Type, String Title, boolean Rent, String genre) {
+	public VL_Movie(String YearOfRelease, TypeEnum Type, String Title,String genre, boolean Rent ) {
 		super(YearOfRelease, Type, Title, Rent);
 		// TODO Auto-generated constructor stub
 		

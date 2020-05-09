@@ -1,11 +1,17 @@
 package options;
 import java.util.Scanner;
 
+import creation.addNewTitle;
+import creation.newCustomer;
+
 
 /**
  * This class will work with the class moreOptions the User chooses in the previous class
  * six options are displayed in the console, all of them redirects the user to a different class
  * or return to the previous class, if they choose the option (6) Return, printing again the previous options
+ * 
+ * @author Glauco
+ * 
  */
 public class moreOptions {
 	
@@ -47,15 +53,15 @@ public class moreOptions {
 		switch (number) {
 		case 1:
 			System.out.println("search titles");
-			new searchTitles();
+			new optionSearchTitles();
 			break;
 		case 2:
 			System.out.println("seach customer");
-			new searchCustomer();
+			new optionSearchCustomer();
 			break;
 		case 3:
 			System.out.println("add new titles");
-			new addNewTitles();
+			new addNewTitle();
 			break;
 		case 4:
 			System.out.println("add new customer");
@@ -63,10 +69,9 @@ public class moreOptions {
 			break;
 		case 5:
 			System.out.println("update customer profile");
-			new newCustomer();
+			new updateCustomer();
 			break;
 		case 6:
-			System.out.println("Guess who's back");
 			new firstPrompt();
 			break;
 		default:

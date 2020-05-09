@@ -1,17 +1,24 @@
 package titles;
-
+/**
+ * Abstract class that carries four main attributes of the classes in the titles package
+ * 
+ * Creation of getters and setters in the class for the parameters
+ * 
+ * @author Glauco
+ *
+ */
 public abstract class Media {
 	
-	private String YearOfRelease;
-	private String Type;
-	private String Title;
-	private boolean Rent;
+	public String YearOfRelease;
+	public TypeEnum Type;
+	public String Title;
+	public boolean Rent;
 	
 	
-	public Media(String YearOfRelease, String Type, String Title, boolean Rent) {
+	public Media(String YearOfRelease, TypeEnum cd, String Title, boolean Rent) {
 		super();
 		this.YearOfRelease = YearOfRelease;
-		this.Type = Type;
+		this.Type = cd;
 		this.Title = Title;
 		this.Rent = Rent;
 	}
@@ -27,12 +34,12 @@ public abstract class Media {
 	}
 
 
-	public String getType() {
+	public TypeEnum getType() {
 		return Type;
 	}
 
 
-	public void setType(String type) {
+	public void setType(TypeEnum type) {
 		Type = type;
 	}
 

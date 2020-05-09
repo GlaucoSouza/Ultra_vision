@@ -1,8 +1,12 @@
 import javax.swing.JOptionPane;
-
 import options.firstPrompt;
 import titles.TV_Box_Set;
 
+/**
+ * Simple main class that creates a new instance of the firstPrompt class that will print the first few option in the console for the user
+ * @author Glauco
+ *
+ */
 public class Main{
 
 	public static void main(String[] args) {
@@ -13,7 +17,6 @@ public class Main{
 //		tvbox.getYearOfRelease();
 //		System.out.println(tvbox);
 		
-		new Main();
 		
 		firstPrompt op = new firstPrompt();
 		

@@ -3,6 +3,14 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 import user.membership;
 
+/**
+ * 
+ * this class prints out 4 options to the user related to the subscription
+ * either one the user chooses, goes to the membership class and carry out the customer's information + their choice of subscription
+ * @author Glauco
+ *
+ */
+
 public class subscription {
 	
 	public int number = -1;
@@ -26,6 +34,8 @@ public class subscription {
 			e.printStackTrace();
 		}
 		
+		
+		//switch with the user's input and redirects to the membership class with the input stored
 		switch (number) {
 		case 1:
 			System.out.println("Music Lovers: CDS or Live Concert Videos (CD, DVD, Blue-Ray");
@@ -52,6 +62,17 @@ public class subscription {
 			new subscription();
 		}
 		
+				
+	}
+	
+	//getters and setters for the user's input
+
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
 	}
 
 }

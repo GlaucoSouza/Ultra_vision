@@ -2,9 +2,9 @@ package titles;
 
 public class TV_Box_Set extends Media {
 	
-	private int season;
+	private String season;
 
-	public TV_Box_Set(String YearOfRelease, String Type, String Title, boolean Rent, int season) {
+	public TV_Box_Set(String YearOfRelease, TypeEnum Type, String Title, String season, boolean Rent) {
 		super(YearOfRelease, Type, Title, Rent);
 		// TODO Auto-generated constructor stub
 		
@@ -12,17 +12,20 @@ public class TV_Box_Set extends Media {
 		this.season = season;
 	}
 
-	public int getSeason() {
+	public String getSeason() {
 		return season;
 	}
 
-	public void setSeason(int season) {
+	public void setSeason(String season) {
 		this.season = season;
 	}
 	
 	@Override
 	public String toString() {
-		return super.toString();
+		return "this TV Box was released in " + this.YearOfRelease  + "\r" +
+				"it is " + this.Type + " type\r" +
+				"the title is " + this.Title + "\r" +
+				"this is the season number " + this.season;
 	}
 	
 

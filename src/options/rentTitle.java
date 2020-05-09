@@ -1,6 +1,21 @@
 package options;
 import java.util.Scanner;
 
+import creation.newCustomer;
+/**
+ * simple class with 3 options
+ * 1 create a new customer
+ * 2 just confirms if the customer is already a member
+ * 3 returns to the previous prompt
+ * 
+ * a try catch is used to deal with the user's input
+ * 
+ * a switch statement will work with the user's input and send the user to a different class based on the input
+ * 
+ * 
+ * @author Glauco
+ *
+ */
 public class rentTitle {
 	
 	Scanner sc = new Scanner(System.in);
@@ -21,11 +36,11 @@ public class rentTitle {
 		}
 		
 		/*switch with two cases
-		case 1 goes to a new class called <newCustomer>
+		case 1 goes to newCustomer class
 		user will be able to input customer's personal information
 		-
-		case 2 goes to a new class called <registeredCustomer>
-		if customer is already registered, goes to the <subscribed> class
+		case 2 will send the user to a screen where the customer will be identified by their name
+		and then the system will print out the titles of their subscription
 		-
 		default option deals with any mistyped input and create a new rentTitle()
 		*/
@@ -36,11 +51,7 @@ public class rentTitle {
 			break;
 			
 		case 2:
-			System.out.println( "welcome back\r\n" + 
-								"You are subscribed to the" + " <ARRAYLIST OF SUBSCRIPTION GOES HERE>" + "\r\n" + 
-								"Which title would you like to rent?\r\n" +
-								"<ARRAYLIST OF TITLES GOES HERE>");
-			//goes to somewhere else
+			new identify();
 			break;
 			
 		case 3:

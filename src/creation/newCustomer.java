@@ -1,8 +1,19 @@
-package options;
+package creation;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import options.subscription;
+
+/**
+ * this class will store the user's input related to the customer information
+ * it is where the system prints out to the console the information it needs to add a new customer to the system
+ * getters and setters were created based on the parameters
+ * all the information input is stored in an arraylist
+ * 
+ * @author Glauco
+ *
+ */
 public class newCustomer{
 	
 	int number;
@@ -204,17 +215,15 @@ public class newCustomer{
 			myArray.add(email);
 			myArray.add(phone);
 			
+			customerList();
+		}
+		
+		public void customerList() {
+			System.out.println(myArray);
 		}
 		
 		
-//		popUpMessage();
 //	
-//	
-//		//a simple pop-up message using the JOptionPane confirming the creation of the account
-//		public void popUpMessage() {
-//		JOptionPane.showMessageDialog(null, firstName + "'s account successfully created");
-		
-		//new subscription();
 		}
 		
 
