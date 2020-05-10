@@ -1,5 +1,9 @@
 package titles;
-
+/**
+ * ML_Music class extends Media class with four parameters and the creation of the String band
+ * @author Glauco
+ *
+ */
 public class ML_Music extends Media {
 	
 	private String band;
@@ -18,7 +22,7 @@ public class ML_Music extends Media {
 	public void setBand(String band) {
 		band = band;
 	}
-	
+	//method toString to translate the object to string in the console
 	@Override
 	public String toString() {
 		return "this song was released in " + this.YearOfRelease  + "\r" +

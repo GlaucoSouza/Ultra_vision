@@ -1,6 +1,10 @@
 package options;
 import java.util.Scanner;
-
+/**
+ * this class is a prompt on the console that asks what the user wants to do: search a customer by name or return to the previous prompt
+ * @author Glauco
+ *
+ */
 
 public class optionSearchCustomer {
 	
@@ -18,7 +22,7 @@ public class optionSearchCustomer {
 			}catch(Exception e) {
 				e.printStackTrace();
 			}
-		
+		//a switch that works with the user's input
 		switch(number) {
 		case 1:
 			System.out.println("searching customer by name...");

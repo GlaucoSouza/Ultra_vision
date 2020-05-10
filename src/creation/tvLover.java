@@ -5,7 +5,14 @@ import java.util.Scanner;
 import options.firstPrompt;
 import titles.TV_Box_Set;
 import titles.TypeEnum;
-
+/**
+ * 
+ * tvLover class starts printing to the console asking for the title's information
+ * the method create() sets the midia type
+ * 
+ * @author Glauco
+ *
+ */
 public class tvLover {
 	
 	Scanner sc;
@@ -53,6 +60,8 @@ public class tvLover {
 		new firstPrompt();
 	}
 
+	
+	//list of getters and setters
 	public String getYear() {
 		return year;
 	}

@@ -9,18 +9,18 @@ import creation.newCustomer;
  */
 
 import java.util.Scanner;
-
+/**
+ * I did not manage to work with this class
+ * but it would work as a identifier to an existing customer who wants to rent a title
+ * @author Glauco
+ *
+ */
 public class identify {
 	
-	Scanner sc;
-	String em;
+
 	
 	public identify() {
 		
-		
-		sc = new Scanner(System.in);
-		System.out.println("Email please:");
-		em = sc.next();
 	
 		
 	}

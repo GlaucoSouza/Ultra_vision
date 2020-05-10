@@ -8,6 +8,16 @@ import options.firstPrompt;
 import titles.ML_Music;
 import titles.TypeEnum;
 
+/**
+ * 
+ * musicLover class starts printing to the console asking for the title's information
+ * 
+ * the method create() sets the midia type
+ * 
+ * 
+ * @author Glauco
+ *
+ */
 public class musicLover {
 	
 	Scanner sc;
@@ -20,6 +30,7 @@ public class musicLover {
 	
 	public musicLover() {
 		
+		//try catch to trigger if any error occour
 		try {
 			sc = new Scanner(System.in);
 			System.out.println( "Please insert the title's information:\r" +
@@ -42,7 +53,7 @@ public class musicLover {
 	}
 
 	private void create() {
-		
+		//a simple if and else if statement to check the user's input and add to the title the type of media using Enum
 		if(num=="1") {
 			type = TypeEnum.CD;
 		}else if(num=="2") {
@@ -57,6 +68,8 @@ public class musicLover {
 		new firstPrompt();
 	}
 
+	
+	//list of getters and setters
 	public String getYear() {
 		return year;
 	}

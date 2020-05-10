@@ -1,5 +1,10 @@
 package titles;
-
+/**
+ * ML_Live_Concert_Videos class extends the Media class with 4 parameters and the creation of the String band
+ * 
+ * @author Glauco
+ *
+ */
 public class ML_Live_Concert_Videos extends Media{
 	
 	 private String Band;
@@ -22,6 +27,7 @@ public class ML_Live_Concert_Videos extends Media{
 		Band = band;
 	}
 	
+	//method toString to translate the object to string in the console
 	@Override
 	public String toString() {
 		return "this song was released in " + this.YearOfRelease  + "\r" +

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 
- * this class will prints out to the console 3 options 
+ * this class will print out to the console 3 options 
  * these options are the access level/subscription
  * movies will be in the VL
  * musics/live concert will be in the ML
